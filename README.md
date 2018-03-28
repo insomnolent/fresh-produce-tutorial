@@ -21,7 +21,27 @@ A crash course on git commands and maybe HTML/CSS for any level programmer
 - `git commit -m '<write commit message>'` makes commit with a custom message. Double check your file changes too
 - `git push` pushes your changes to remote thingie on Github
 - `git pull` pulls latest version and changes from remote project stuff
-- There's also this thing called branches but again I am lazy and usually don't make too many drastic changes...
+- There's also this thing called branches but again I am lazy and usually don't make too many drastic changes...basically you can make different versions of your code on different 'branches' so that you can work on different features without risking messing up the master branch. This is really helpful for group projects if you want to split up the work or code different things, but since it's usually just one person making minor changes then you can look into it later if you're interested ^_^
+- `git revert <commit reference>` is kind of like an undo button in case you want to revert changes but you also need to know which commit you want to revert to
+- For more git commands the websites I linked at the bottom should be more in depth
+
+## When making changes
+- If you want to see changes on the site just on your own laptop, open the index.html file in Chrome so that the URL should be something like 'file:///Users/christinesun/GitHub/freshproductionsucla/index.html'. When making changes, be sure to save it each time and refresh the page again to see changes reflected. 
+- If you want that change to go onto the actual site, then do 
+#### git add .
+#### git commit -m '<some comment message>'
+#### git push
+- and then refresh freshproductions.art to see if the changes take effect (sometimes there might be a lag)
+- Usually there shouldn't be any merge conflicts if there aren't multiple versions
 
 ## Useful websites for HTML/CSS
 - https://www.codecademy.com/
+- https://www.w3schools.com
+- https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how
+
+## Useful site for git
+- http://guides.beanstalkapp.com/version-control/common-git-commands.html
+- https://git-scm.com/docs
+
+## Useful site for all questions related to CS
+- https://stackoverflow.com/
