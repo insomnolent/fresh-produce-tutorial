@@ -27,10 +27,11 @@ A crash course on git commands and maybe HTML/CSS for any level programmer
 
 ## When making changes
 - If you want to see changes on the site just on your own laptop, open the index.html file in Chrome so that the URL should be something like 'file:///Users/christinesun/GitHub/freshproductionsucla/index.html'. When making changes, be sure to save it each time and refresh the page again to see changes reflected. 
+- Another helpful thing is the Inspect Element button! If you're not sure if the CSS will actually change the right thing, then you can change the HTML/CSS directly in the browser. Here's a neat cheat sheet on that: https://appletree.or.kr/quick_reference_cards/Web_Browsers/chrome-developer-tools-cheatsheet.pdf
 - If you want that change to go onto the actual site, then do 
-#### git add .
-#### git commit -m '<some comment message>'
-#### git push
+1. `git add .`
+2. `git commit -m '<some comment message>'`
+3. `git push`
 - and then refresh freshproductions.art to see if the changes take effect (sometimes there might be a lag)
 - Usually there shouldn't be any merge conflicts if there aren't multiple versions
 
